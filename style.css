@@ -106,8 +106,6 @@ body {
   border-radius: 10px;
   background-color: #d13f30;
 }
-#s3 p:nth-child(-n + 15) {
-}
 #s3 p:nth-child(7) {
   grid-area: 1/1/2/2;
 }
@@ -165,7 +163,3 @@ body {
 #s3 p:nth-child(18) {
   grid-area: 5/3/6/5;
 }
-@media (max-width: 480px) {
-  .container {
-    padding: 0 2px;
-  }

@@ -1,3 +1,4 @@
+@import url(https://db.onlinewebfonts.com/c/59dba72a977ac27271a6cdd5f6af92b4?family=Avenir+Next+Rounded+W02+Bold);
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +9,7 @@
 
 body {
   background-color: #3b4664;
-  font-family: "Avenir Next World W05 Bold";
+  font-family: "Avenir Next Rounded W02 Bold";
   width: 38%;
   margin: auto;
 }
@@ -162,4 +163,10 @@ body {
 }
 #s3 p:nth-child(18) {
   grid-area: 5/3/6/5;
+}
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 5%;
+    width: 90%;
+  }
 }

@@ -164,6 +164,41 @@ body {
 #s3 p:nth-child(18) {
   grid-area: 5/3/6/5;
 }
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 5%;
+    width: 40%;
+  }
+  #p1 {
+    display: flex;
+    justify-content: left;
+  }
+  #rectangle1 {
+    display: flex;
+    justify-content: right;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 5%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    font-size: 5%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 5%;
+    width: 95%;
+  }
+}
 @media screen and (max-width: 320px) {
   body {
     font-size: 5%;
